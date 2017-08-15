@@ -22,6 +22,6 @@ public class Exemplo04 {
         idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a sua idade:"));
 
         //mostrando o nome lido
-        System.out.println("Seu idade é: " + idade);
+        JOptionPane.showMessageDialog(null, "Seu idade é: " + idade);
     }
 }

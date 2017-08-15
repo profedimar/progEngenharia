@@ -23,7 +23,7 @@ public class Exemplo03 {
         nome = JOptionPane.showInputDialog("Digite o seu nome:");
 
         //mostrando o nome lido
-        System.out.println("Seu nome é: " + nome);
+        JOptionPane.showMessageDialog(null, "Seu nome é: " + nome);
 
     }
 }

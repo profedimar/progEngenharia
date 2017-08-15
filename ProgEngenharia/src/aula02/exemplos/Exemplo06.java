@@ -22,6 +22,6 @@ public class Exemplo06 {
         salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o seu salário:"));
 
         //mostrando o nome lido
-        System.out.println("Seu salário é: " + salario);
+        JOptionPane.showMessageDialog(null, "Seu salário é: " + salario);
     }
 }
