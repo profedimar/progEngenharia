@@ -10,20 +10,18 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author edimar
- *
- * Objetivo: ler texto
+ * 
+ * Objetivo: ler variável inteira
  */
-public class Exemplo03 {
-
+public class Exemplo04 {
     public static void main(String[] args) {
         //declarando a variável que receberá o valor a ser lido
-        String nome;
+        int idade;
 
         //lendo
-        nome = JOptionPane.showInputDialog("Digite o seu nome:");
+        idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a sua idade:"));
 
         //mostrando o nome lido
-        System.out.println("Seu nome é: " + nome);
-
+        System.out.println("Seu idade é: " + idade);
     }
 }

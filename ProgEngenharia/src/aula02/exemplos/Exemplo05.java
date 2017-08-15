@@ -10,20 +10,18 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author edimar
- *
- * Objetivo: ler texto
+ * 
+ * Objetivo: ler uma variável numérica (precisão simples)
  */
-public class Exemplo03 {
-
+public class Exemplo05 {
     public static void main(String[] args) {
         //declarando a variável que receberá o valor a ser lido
-        String nome;
+        float salario;
 
-        //lendo
-        nome = JOptionPane.showInputDialog("Digite o seu nome:");
+        //lendo -- Informar ponto em vez de vírgula
+        salario = Float.parseFloat(JOptionPane.showInputDialog("Digite o seu salário:"));
 
         //mostrando o nome lido
-        System.out.println("Seu nome é: " + nome);
-
+        System.out.println("Seu salário é: " + salario);
     }
 }
