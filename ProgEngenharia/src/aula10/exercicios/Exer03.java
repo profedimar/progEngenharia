@@ -34,6 +34,6 @@ o método criado para obter tal informação.
         //lendo o segundo número
         b = Double.parseDouble(JOptionPane.showInputDialog("Digite outro número"));
         //mostrando o maior
-        JOptionPane.showMessageDialog(null, ex.maior(a, b));
+        JOptionPane.showMessageDialog(null, "O maior é: "+ex.maior(a, b));
     }
 }
