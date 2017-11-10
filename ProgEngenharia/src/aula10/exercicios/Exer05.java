@@ -38,6 +38,6 @@ métodos criados para obter essas informações
         raio = Double.parseDouble(JOptionPane.showInputDialog("Digite o raio"));
         
         JOptionPane.showMessageDialog(null, "Área: "+ex.obtemArea(raio));
-        JOptionPane.showMessageDialog(null, "Perímetro: "+ex.obtemArea(raio));
+        JOptionPane.showMessageDialog(null, "Perímetro: "+ex.obtemPerimetro(raio));
     }
 }

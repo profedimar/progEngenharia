@@ -33,9 +33,9 @@ sair. Utilize os métodos criados para fazer as conversões
     }
 
     public static void main(String[] args) {
-        Exer06 ex = new Exer06();
-        int nr;
-        double temperatura;
+        Exer06 ex = new Exer06();//instanciando a classe para utilizar os métodos criados
+        int nr;//declarando a variável
+        double temperatura;//declarando a variável
 
         do {
             nr = Integer.parseInt(JOptionPane.showInputDialog("Opções: \n 1 - Converte temperatura de Célcius para Fahrenheit \n"
