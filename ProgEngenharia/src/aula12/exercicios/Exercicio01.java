@@ -23,7 +23,7 @@ public class Exercicio01 {
         double[] notas = new double[TAMANHO];
         double maiorNota;
         int i;
-
+        
         //lendo as notas
         for (i = 0; i < TAMANHO; i++) {
             notas[i] = Double.parseDouble(JOptionPane.showInputDialog("Digite uma nota: "));
