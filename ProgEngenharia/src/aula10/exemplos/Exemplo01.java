@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula08.exemplos;
+package aula10.exemplos;
 
 import javax.swing.JOptionPane;
 
@@ -13,18 +13,19 @@ import javax.swing.JOptionPane;
  */
 public class Exemplo01 {
 
-    void dadosDoAutor() {  //definição da função "dadosDoAutor"
-        System.out.println("Autor: Edimar Manica");
+    void dadosDoAutor(String nome) {  //definição da função "dadosDoAutor"
+        System.out.println("Autor: "+nome);
     }
 
     public static void main(String[] args) {
         Exemplo01 ex = new Exemplo01(); //instanciando a classe "Exemplo01"
 
-        ex.dadosDoAutor(); //chamada da função definida antes
+        ex.dadosDoAutor("Ciclano"); //chamada da função definida antes
 
-        ex.dadosDoAutor();  //chamada da função definida antes
+        ex.dadosDoAutor("Beltrano");  //chamada da função definida antes
+                
         
-        ex.dadosDoAutor();  //chamada da função definida antes
+        ex.dadosDoAutor("Fulano");  //chamada da função definida antes
     }
 
 }
